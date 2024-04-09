@@ -1,4 +1,11 @@
-# Installing Minikube, Kind, and k3d on macOS
+# AI Development in Kubernetes. What to choose? (if you are on MacOS)
+
+# TLDR
+
+![AI Development in Kubernetes](https://raw.githubusercontent.com/diamonce/AsciiArtify/main/doc/mindmap.png)
+<img src="![AI Development in Kubernetes](https://raw.githubusercontent.com/diamonce/AsciiArtify/main/doc/mindmap.png)">
+
+# If you have time you can read further
 
 | Tool | Installation | Description |
 |------|----------------------|-------------|
@@ -14,7 +21,7 @@
 | **Kind** |  **Kind** stands out for its speed and efficiency, particularly in CI/CD pipelines. Its primary limitations are the lack of a UI for cluster management and less direct emulation of a full Kubernetes cluster environment compared to Minikube. |
 | **k3d** |  **k3d** is praised for its rapid setup and teardown, low resource usage, and ease of use, making it suitable for quick testing scenarios and learning purposes. However, it may not fully replicate the complexity of larger Kubernetes environments and lacks some advanced features. |
 
-## **AI Development in Kubernetes. What to choose? **: 
+## AI Development in Kubernetes. What to choose? : 
   - High Complexity? 
     - Yes -> **Use Minikube**; 
     - No 
@@ -24,10 +31,6 @@
            - Resource Efficiency? 
             - Yes: **Use k3d**, 
             - No: **Use Minikube**.
-
-![AI Development in Kubernetes](https://raw.githubusercontent.com/diamonce/AsciiArtify/main/doc/mindmap.png)
-<img src="![AI Development in Kubernetes](https://raw.githubusercontent.com/diamonce/AsciiArtify/main/doc/mindmap.png)">
-
 
 ## Pre-requisites
 - macOS 10.14 or later.
