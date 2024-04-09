@@ -42,11 +42,15 @@
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Install Minikube
+## Install Minikube and deploy 
 ```
    brew install minikube
    minikube version
    minikube start
+
+   kubectl apply -f nginx-deployment.yaml
+   kubectl expose deployment nginx-deployment --type=NodePort --port=80
+   minikube service nginx-deployment --url
 ```
 
 ## Installing Kind
