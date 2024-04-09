@@ -53,6 +53,10 @@
    minikube service nginx-deployment --url
 ```
 
+![Install Minikube and deploy](https://raw.githubusercontent.com/diamonce/AsciiArtify/main/doc/mink.gif)
+<img src="![Install Minikube and deploy](https://raw.githubusercontent.com/diamonce/AsciiArtify/main/doc/mink.gif)">
+
+
 ## Installing Kind
 ```
     brew install kind
