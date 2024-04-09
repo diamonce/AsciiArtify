@@ -5,10 +5,8 @@ Minikube, Kind, and k3d are tools for running Kubernetes locally. This guide cov
 | Tool | Installation | Description |
 |------|----------------------|-------------|
 | **Minikube** | `brew install minikube` | **Minikube** is known for its ability to mimic a complete Kubernetes cluster by running in a VM or directly on the host. It supports various operating systems including macOS, Windows, and Linux, and offers extensive options for cluster customization, such as CPU, memory allocation, and the choice between different Kubernetes versions. Minikube includes additional features like a built-in dashboard for monitoring and managing clusters. |
-| **Kind** | `brew install kind` | **Kind** (Kubernetes in Docker) runs Kubernetes clusters using Docker container "nodes," making it highly efficient for CI/CD environments. It is cross-platform, supports automated testing through integration with CI tools, and is ideal for testing Kubernetes itself, including new versions and configurations. However, it lacks some of the more advanced monitoring and management features found in Minikube.
- |
-| **k3d** | `brew install k3d` | **k3d** is a lightweight wrapper around k3s, a minimal Kubernetes distribution designed for edge computing, making it fast and easy to spin up clusters on local machines. It supports automation through simple command-line arguments and is compatible with Docker on macOS, Windows, and Linux. k3d focuses on simplicity and speed, trading off some of the more complex features and customizations available in Minikube.
- |
+| **Kind** | `brew install kind` | **Kind** (Kubernetes in Docker) runs Kubernetes clusters using Docker container "nodes," making it highly efficient for CI/CD environments. It is cross-platform, supports automated testing through integration with CI tools, and is ideal for testing Kubernetes itself, including new versions and configurations. However, it lacks some of the more advanced monitoring and management features found in Minikube. |
+| **k3d** | `brew install k3d` | **k3d** is a lightweight wrapper around k3s, a minimal Kubernetes distribution designed for edge computing, making it fast and easy to spin up clusters on local machines. It supports automation through simple command-line arguments and is compatible with Docker on macOS, Windows, and Linux. k3d focuses on simplicity and speed, trading off some of the more complex features and customizations available in Minikube. |
 
 | Tool | Advantages and Disadvantages of Each Tool |
 |------|----------------------|-------------|
