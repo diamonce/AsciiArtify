@@ -25,6 +25,9 @@
             - Yes: **Use k3d**, 
             - No: **Use Minikube**.
 
+![Alt text](./markmap.svg)
+<img src="./markmap.svg">
+
 
 ## Pre-requisites
 - macOS 10.14 or later.
