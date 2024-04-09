@@ -14,7 +14,7 @@
 | **Kind** |  **Kind** stands out for its speed and efficiency, particularly in CI/CD pipelines. Its primary limitations are the lack of a UI for cluster management and less direct emulation of a full Kubernetes cluster environment compared to Minikube. |
 | **k3d** |  **k3d** is praised for its rapid setup and teardown, low resource usage, and ease of use, making it suitable for quick testing scenarios and learning purposes. However, it may not fully replicate the complexity of larger Kubernetes environments and lacks some advanced features. |
 
-- **AI Development in Kubernetes. What to choose? **: 
+## **AI Development in Kubernetes. What to choose? **: 
   - High Complexity? 
     - Yes -> **Use Minikube**; 
     - No 
@@ -34,22 +34,30 @@
 - Docker for Kind and k3d.
 - 8GB RAM and 4 CPU cores recommended.
 
-## Installing Minikube
+## Installing Homebrew
+```
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 ## Install Minikube
+```
    brew install minikube
    minikube version
    minikube start
+```
 
 ## Installing Kind
+```
     brew install kind
     kind create cluster
     kubectl cluster-info --context kind-kind
+```
 
 ## Installing k3d
+```
     brew install k3d
     k3d cluster create
+```
 
 ## Resources
 - [Kubernetes Documentation](https://kubernetes.io/docs/)
