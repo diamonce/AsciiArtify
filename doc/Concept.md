@@ -35,28 +35,24 @@
 - 8GB RAM and 4 CPU cores recommended.
 
 ## Installing Minikube
-   ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ## Install Minikube
-   ```bash
    brew install minikube
    minikube version
    minikube start
 
 ## Installing Kind
-   ```bash
     brew install kind
     kind create cluster
     kubectl cluster-info --context kind-kind
 
 ## Installing k3d
-   ```bash
     brew install k3d
     k3d cluster create
 
 ## Resources
-Kubernetes Documentation
-Minikube GitHub
-Kind GitHub
-k3d GitHub
+- [Kubernetes Documentation](https://kubernetes.io/docs/)
+- [Minikube GitHub](https://github.com/kubernetes/minikube)
+- [Kind GitHub](https://github.com/kubernetes-sigs/kind)
+- [k3d GitHub](https://github.com/rancher/k3d)
