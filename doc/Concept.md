@@ -25,8 +25,8 @@
             - Yes: **Use k3d**, 
             - No: **Use Minikube**.
 
-![Alt text](./markmap.svg)
-<img src="./markmap.svg">
+![AI Development in Kubernetes](https://raw.githubusercontent.com/diamonce/AsciiArtify/main/doc/markmap.svg)
+<img src="![AI Development in Kubernetes](https://raw.githubusercontent.com/diamonce/AsciiArtify/main/doc/markmap.svg)">
 
 
 ## Pre-requisites
