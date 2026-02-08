@@ -18,8 +18,7 @@ I chose Argo CD, a tool designed for managing deployments using GitOps principle
 
 2. **Helmify** I introduced the team to [Helmify](https://github.com/arttor/helmify), a tool that automates the creation of Helm charts from existing Kubernetes objects. This addition was crucial in streamlining our deployment processes and enhancing our use of GitOps.
 
-![Install Minikube and deploy](https://github.com/diamonce/AsciiArtify/blob/main/argocd.gif?raw=true)
-<img src="![Install Minikube and deploy](https://github.com/diamonce/AsciiArtify/blob/main/argocd.gif?raw=true)">
+![ArgoCD Setup](https://github.com/diamonce/AsciiArtify/blob/main/demos/argocd-setup/argocd.gif?raw=true)
 
 3. **Deploying Argo CD with Helm charts**: Argo CD was set up within our Kubernetes clusters, connected to our Git repositories. This setup enabled automatic synchronization of our deployments with the configurations defined in Git.
 
